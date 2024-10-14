@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to my documentation/knowledge repository!
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This is where I'm going to host all documentation and notes regarding my projects.
