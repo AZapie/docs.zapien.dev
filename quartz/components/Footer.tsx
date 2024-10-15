@@ -2,6 +2,7 @@ import type { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps 
 import style from "./styles/footer.scss"
 import { version } from "../../package.json"
 import { i18n } from "../i18n"
+import TablerBrandGithub from "./TablerBrandGithub"
 
 interface Options {
   links: Record<string, string>
@@ -23,7 +24,10 @@ export default ((opts?: Options) => {
               <a href={link}>{text}</a>
             </li>
           ))}
+          {/* biome-ignore lint/a11y/noSvgWithoutTitle: <explanation> */}
+          <svg href = "https://github.com/AZapie">{TablerBrandGithub}</svg>
         </ul>
+
       </footer>
     )
   }

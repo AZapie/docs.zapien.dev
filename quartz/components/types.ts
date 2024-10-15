@@ -12,16 +12,21 @@ export type QuartzComponentProps = {
   cfg: GlobalConfiguration
   children: (QuartzComponent | JSX.Element)[]
   tree: Node
+  // below
+  svg: SVGElement
   allFiles: QuartzPluginData[]
   displayClass?: "mobile-only" | "desktop-only"
 } & JSX.IntrinsicAttributes & {
     [key: string]: any
   }
 
+  
 export type QuartzComponent = ComponentType<QuartzComponentProps> & {
   css?: string
   beforeDOMLoaded?: string
   afterDOMLoaded?: string
+  // below
+  svg?: SVGElement
 }
 
 export type QuartzComponentConstructor<Options extends object | undefined = undefined> = (
