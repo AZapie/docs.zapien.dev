@@ -18,10 +18,10 @@ After unscrewing & removing the swivel mechanic and removing the pcb underneath 
 
 After taking off the pcb for the buttons, I also took off and took note of the three pcbs for the central orange button. Each one was the same as the other.
 
-![[20240627_180250.webp\|300]] ![[20240627_180312.webp\|300]]
+![[small-button_pcb.webp\|300]] ![[small-button_pcb2.webp\|300]]
 
 Moving onto the other joystick half, things were as simple as unscrewing the entire component and then taking off screws to be able to pry off the wiper pcb that the joystick works off of
 
-![[20240627_174649.webp\|300]] ![[20240704_175443.webp\|300]] ![[20240704_175453.webp\|300]]
+![[joystick_component.webp\|300]] ![[wiper-pic.webp\|300]] ![[wiper-pcb.webp\|300]]
 
  
