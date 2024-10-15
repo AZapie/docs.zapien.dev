@@ -2,5 +2,7 @@
 title: Welcome to the BengalBots knowledge repository!
 ---
 
-This is the home page. This website is automatically generated from an [Obsidian](https://obsidian.md/) vault via [Quartz!](https://quartz.jzhao.xyz/)
+>[!quote]
+>“Specialization is for insects.” — Robert A. Heinlein
 
+This is where I'm hosting any and all of my personal project documentation
