@@ -54,11 +54,18 @@ function createGithubCardHtml(data: RepoData): string {
 }
 
 // Main function to generate the GitHub card
-export async function GithubCardComponent(repo: string): Promise<string> {
+export async function awdaw(repo: string): Promise<string> {
   try {
     const data = await fetchGithubRepoData(repo);
     return createGithubCardHtml(data);
   } catch (error) {
     return `<div class="github-card-error">Failed to load repo: ${repo}</div>`;
+  }
+}
+
+export const GithubCardComponent: QuartzTransformerPlugin<Options> = (opts?: Options) => {
+  const engine = opts?.renderEngine ?? "katex"
+  return {
+
   }
 }

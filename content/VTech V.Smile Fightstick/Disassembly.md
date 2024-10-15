@@ -24,4 +24,3 @@ Moving onto the other joystick half, things were as simple as unscrewing the ent
 
 ![[joystick_component.webp\|300]] ![[wiper-pic.webp\|300]] ![[wiper-pcb.webp\|300]]
 
- 
