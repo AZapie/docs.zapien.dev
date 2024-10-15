@@ -1,6 +1,6 @@
-import { StaticResources } from "../util/resources"
-import { FilePath, FullSlug } from "../util/path"
-import { BuildCtx } from "../util/ctx"
+import type { StaticResources } from "../util/resources"
+import type { FilePath, FullSlug } from "../util/path"
+import type { BuildCtx } from "../util/ctx"
 
 export function getStaticResourcesFromPlugins(ctx: BuildCtx) {
   const staticResources: StaticResources = {
@@ -24,7 +24,7 @@ export function getStaticResourcesFromPlugins(ctx: BuildCtx) {
       ? `wss://${ctx.argv.remoteDevHost}:${ctx.argv.wsPort}`
       : `ws://localhost:${ctx.argv.wsPort}`
 
-    staticResources.js.push({
+      staticResources.js.push({
       loadTime: "afterDOMReady",
       contentType: "inline",
       script: `
@@ -50,3 +50,7 @@ declare module "vfile" {
     relativePath: FilePath
   }
 }
+export function Plugin(): import("./types").QuartzTransformerPluginInstance {
+  throw new Error("Function not implemented.")
+}
+
